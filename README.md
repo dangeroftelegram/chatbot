@@ -17,9 +17,9 @@ Modular Telegram bot for managing your groups with a extras features with Hunter
 </p>
 
 ### Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/511ad504656e712b88235.jpg)](https://heroku.com/deploy?template=https://github.com/Sur-vivor/CinderellaProBot.git)
+[![Deploy](https://telegra.ph/file/511ad504656e712b88235.jpg)](https://heroku.com/deploy?template=https://github.com/dangeroftelegram/chatbot)
 
-### Configuration
+## Configuration
 
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
@@ -33,9 +33,7 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from cinderella.sample_config import Config
-
-
+from cinderella.sample_con
 class Development(Config):
     OWNER_ID = 1118936839  # my telegram ID
     OWNER_USERNAME = "Sur_vivor"  # my telegram username
